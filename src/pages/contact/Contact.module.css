@@ -1,0 +1,83 @@
+ p, li{
+    margin: 0;
+    padding: 0;
+}
+.contact{
+background: #e1eedd;
+padding: 30px;
+border-radius: 20px;
+position: relative;
+margin-bottom: 15px;
+}
+.contact .name{
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #333;
+}
+
+.contact .number{
+    margin-top: 0;
+   
+}
+
+.contact .number, .contact .kids{
+    color: #777;
+    font-size: 0.9em;
+}
+
+
+
+.description{
+    color: #999;
+    line-height: 1;
+    margin-top: 10px;
+    font-size: 0.8em;
+    text-align: left;
+}
+
+.contact .delete{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    background: #f8faf8;
+    color: #e1eedd;
+    padding: 2px 10px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, 0.09);
+    transition: all .5s ease-in-out;
+    border: none;
+}
+.contact .delete:hover{
+    color: red;
+    box-shadow: 5px 4px 5px rgba(0, 0, 0, rgba(0,0,0, 0.9));
+}
+
+.contact .edit{
+    width: 10rem;
+    margin: 10px auto 0px;
+    text-align: center;
+}
+
+.contact .edit button{
+    padding: 4px 12px;
+    line-height: 1;
+    background:  #f8faf8;
+    border: none;
+    border-radius: 4px;
+    color:#999;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 4px 4px 12px rgba(0,0, 0, 0.19);
+}
+
+.contact .edit button:hover{
+    color: #777;
+}
+
+/* date */
+
+.contact .date{
+    color: #777;
+    font-size: 0.9em;
+}

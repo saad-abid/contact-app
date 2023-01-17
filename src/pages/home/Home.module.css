@@ -1,0 +1,16 @@
+.card{
+    max-width: 1200px;
+    margin: 40px auto;
+    background: #fefbe9;
+    padding: 30px 40px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.11);
+    border-radius: 20px;
+}
+
+.error{
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+

@@ -1,0 +1,95 @@
+.navbar{
+    padding: 30px;
+    background: #b6d7ab;
+}
+
+.navbar nav{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+}
+
+.title{
+    font-size: 1.5em;
+}
+
+ nav a:first-child{
+    margin-right: auto;
+
+}
+
+.left a{
+    padding: 6px 12px;
+    background: #416a59;
+    border: none;
+    border-radius: 10px;
+    transition: all 0.4s ease-in;
+}
+
+.left a:hover{
+    background: #fff;
+    color: #b6d7ab;
+}
+
+/* logout icon */
+
+.logout{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.logout img, .logout span{
+    display: block;
+
+}
+
+.logout img{
+    width: 30px;
+    margin-left: 0;
+    transform: rotate(180deg);
+    filter: invert(100%);
+}
+
+.logout span{
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    color: #fff;
+    transition: ease-out 0.3s;
+    box-shadow: inset 0 0 0 #ff0044 ;
+}
+
+.logout span:hover{
+    box-shadow: inset 64px 0 0 #ff0044 ;;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+
+/* welcome text */
+.welcomeText{
+    font-size: 1.1em;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        padding: 20px 5px;
+    }
+    .title{
+        font-size: 1em;
+        text-align: center;
+    }
+    .navbar nav a{
+        margin-left: 2px;
+    }
+    .welcomeText{
+        display: none;
+    }
+}
